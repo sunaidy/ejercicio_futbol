@@ -23,3 +23,4 @@ class Equipo:
         self.diferencia += aFavor - enContra
         self.puntos += puntos
         self.list_partido_con_quien_jugo[nombre_contrincante] = Partido(puntos,(aFavor - enContra),aFavor)
+        
